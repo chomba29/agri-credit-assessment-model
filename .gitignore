@@ -1,0 +1,17 @@
+# Data files (don't push raw data)
+DATA/
+*.csv
+*.xlsx
+
+# Models (too large for GitHub)
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+venv/
+env/
